@@ -27,12 +27,13 @@
 .numbers {
     margin: 10px 15px;
     font-size: 32px;
-    background-color: #003d99;
+    background-color: #004777;
     color: white;
     border-radius: 100%;
     width: 100px;
     height: 100px;
     border: none;
+    box-shadow: 0px 4px #242424;
 }
 .operators {
     position: relative;
@@ -41,24 +42,26 @@
     margin: 20px 15px;
     display: block;
     font-size: 32px;
-    background-color:  #99ebff;
+    background-color:  #74BFD5;
     color: white;
     border-radius: 100%;
     width: 100px;
     height: 100px;
     border: none;
+    box-shadow: 0px 4px #242424;
 }
 .specials {
     position: relative;
     left: 15px;
     margin: 20px 15px; 
     font-size: 32px;
-    background-color: #4d94ff;
+    background-color: #006CB5;
     color: white;
     border-radius: 100%;
     width: 100px;
     height: 100px;
     border: none;
+    box-shadow: 0px 4px #242424;
 }
 .numbers-container {
     position: relative;
@@ -66,6 +69,10 @@
     left: 15px;
     display: inline-block;
     width: 400px;
+}
+.numbers:nth-last-child(2) {
+    width: 230px;
+    border-radius: 50px 50px 50px 50px 
 }
 
 
