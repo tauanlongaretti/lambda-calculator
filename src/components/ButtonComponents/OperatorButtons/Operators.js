@@ -19,7 +19,6 @@ const Operators = () => {
             <OperatorButton
             key={index}
             button={button}
-            setOperatorsState={setOperatorsState}
             /> 
          );
        })}
